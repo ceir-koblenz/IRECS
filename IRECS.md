@@ -1,5 +1,7 @@
 # IRECS - Identification of Requirements for Enterprise Collaboration SystemsUse Cases
 
+![IRECS](IRECS.svg)
+
 ## Use Cases
 
 ### Basic Use Cases
