@@ -1,6 +1,6 @@
 # IRECS
 
-This repo contains the **IRECS - Identification of Requirements for Enterprise Collaboration Systems** framework developed by the [CEIR - Center for Enterprise Information Research](https://ceir.de/).
+This repo contains the [**IRECS - Identification of Requirements for Enterprise Collaboration Systems**](IRECS.md) framework developed by the [CEIR - Center for Enterprise Information Research](https://ceir.de/).
 
 \
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
