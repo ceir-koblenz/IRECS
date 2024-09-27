@@ -1,11 +1,23 @@
-# IRECS - Identification of Requirements for Enterprise Collaboration SystemsUse Cases
+# IRECS Framework
 
+The **IRECS (Identification of Requirements for Enterprise Collaboration Systems) Framework** is a comprehensive *classification* of the digital support of collaborative work and a complementary *taxonomy* of empirically observed examples. The IRECS classification comprises *five layers* – from a high-level business view of collaborative work to a detailed consideration of the software modules that fulfil the functional requirements. The framework is designed to serve the needs of researchers and practitioners alike. The detailed classification provides a valuable *analytical lens* for research. The framework and its concrete examples can also be used in practice as a guidance and checklist in the software selection process of organisations.
+
+## Overview
+- [Use Cases](#use-cases)
+ - [Basic Use Cases](#basic-use-cases)
+ - [Composite/Complex/Special Use Cases](#compositecomplexspecial-use-cases)
+ - [Industry-specific Use Cases](#industry-specific-use-cases)
+- [Collaboration Scenarios](#collaboration-scenarios)
+- [Collaborative Features (C<sup>4</sup>)](#collaborative-features-c4)
+- [Software Modules](#software-modules)
+- [References](#references)
+
+\
 ![IRECS](IRECS.svg)
 
 ## Use Cases
 
 ### Basic Use Cases
-
 | # | Name (English) | Name (Deutsch) | Description | Beschreibung |
 | - | - | - | - | - |
 | 1 | Project Team Organisation | Projektteamorganisation | Organization of a project (all phases starting with forming a team based on knowledge/skills, planning milestones and managing tasks, preparing and documenting meetings) | Organisation eines Projekts (in allen Phasen beginnend mit der Teamzusammenstellung aufgrund von Kenntnissen/Fähigkeiten, Planen von Meilensteinen und Aufgabenverwaltung, Vorbereitung und Dokumentation von Sitzungen) |
@@ -23,7 +35,6 @@
 | 13 | Task Management | Aufgabenverwaltung | Planning and assignment of tasks (ToDos) to people | Planen und Zuordnung von Aufgaben (ToDos) zu Personen. |
 
 ### Composite/Complex/Special Use Cases
-
 | # | Name (English) | Name (Deutsch) | Description | Beschreibung |
 | - | - | - | - | - |
 | 14 | Internal Employee Communication | Interne Mitarbeiterkommunikation | General exchange of information between the employees of a company (synchronously in voice and video or asynchronously in text messages and multimedia contributions). Bottom-up, top-down and between equals. (#7+#8) | Unterstützung des allgemeinen Informationsaustauschs zwischen den Mitarbeitern eines Unternehmens (synchron in Bild und Ton oder asynchron in Textnachrichten und multimedialen Beiträgen). Bottom-up, top-down und zwischen Gleichgestellten. |
@@ -31,7 +42,6 @@
 | 16 | Social Intranet | Soziales Intranet | Overview and access to relevant information and files for employees (Intranet) provided by the communication department, with additional “social features” that enable employees to add to the content. | Zentrale Informationsversorgungs- und Austauschplattform für Mitarbeitende mit sozialen Funktionen (Vernetzen mit Personen, Abonnieren/Folgen von jobrelevanten Personen/Themen, gegenseitiges aktives Hinweisen auf relevante Informationen (@mention/like)) |
 
 ### Industry-specific Use Cases
-
 | # | Name (English) | Name (Deutsch) | Description | Beschreibung |
 | - | - | - | - | - |
 | 17 | Software Development | Softwareentwicklung | Support for teams in collaborative software development (e. g. meeting support, task man-agement, resource management, documentation, versioning) | Unterstützung für Teams in der kollaborativen Softwareentwicklung (z.B. Sitzungsunterstützung, Aufgabenverwaltung, Ressourcenverwaltung, Dokumentation) |
@@ -39,7 +49,6 @@
 | 19 | Teaching Course Organisation | Kursorganisation | Organisation of a course (schedule, collection of materials, group formation, communication with and among the participants) | Organisation einer Lehrveranstaltung (Zeitplan, Materialsammlung, Gruppenbildung, Kommunikation mit und unter den Teilnehmenden) |
 
 ## Collaboration Scenarios
-
 | # | Name (English) | Name (Deutsch) | Description | Beschreibung | Software Module |
 | - | - | - | - | - | - |
 | 1 | Administering documents | Dokumente verwalten | Structured storage, classification and archiving of documents | Strukturierte Ablage, Klassifikation und Archivierung von Dokumenten | Files |
@@ -63,3 +72,90 @@
 | 19 | Sharing files | Dateien teilen | To make files available to others (e.g. uploading a document) | Zur Verfügungsstellen von Dateien für andere Personen | Files |
 | 20 | Sharing information | Informationen teilen | Making information (existing or created for this purpose) available | Bereitstellung von (existierenden oder zu diesem Zweck erstellten) Informationen | |
 | 21 | Writing meeting minutes | Protokoll schreiben | Writing minutes to record important information from meetings or committees (e.g. as a wiki page) | Schreiben von Protokollen | Wiki, Tasks |
+
+## Software Modules
+| # | Software Module | Functionality for … |
+| - | - | - |
+| **Enterprise Collaboration System** |
+| 1 | Space | … creating workspaces |
+| 2 | Forum | … discussing a topic (in a threaded conversation) |
+| 3 | Wiki | … building structured information collections (chapters and pages) |
+| 4 | Microblog | … short messages |
+| 5 | Blog | … publishing news articles or writing a diary |
+| 6 | Files | … file sharing in folders |
+| 7 | Tasks | … assigning and managing tasks |
+| 8 | Boards | … creating workspaces for visual and textual interaction |
+| 9 | Ideation Blog | … proposing, discussing and voting on ideas |
+| 10 | Social Network Profiles | … personal homepages that can be linked/followed |
+| **Communication** |
+| 1 | Video Conferencing | … synchronous audio and video communication |
+| 2 | Chat | … exchange of messages (conversation) |
+| 3 | Surveys | … online questionnaires |
+| **Enterprise Tools** |
+| 1 | Portal/DX | … collection of relevant Web content personalised for different target groups |
+| 2 | Web-CMS | … creation and publication of Web content |
+| 3 | File Storage | … file collection in cloud storage |
+| **Groupware** |
+| 1 | E-Mail Server | … sending and receiving e-mails |
+| 2 | E-Mail Client | … reading, writing and storing e-mails |
+| 3 | Calendar | … administering appointments and reminders (digital diary) |
+| **Office Tools** |
+| 1 | Network Directories | … file collection in shared network directories (operating system) |
+| 2 | Notepad | … rich text editor for notes |
+
+## Collaborative Features (C<sup>4</sup>)
+| # | Collaborative Feature | Example functionality / typical functionality of |
+| - | - | - |
+| **C<sup>4</sup> - Communication** |
+| 1 | Chat (text message) | e.g. short messages, WhatsApp |
+| 2 | Microblogging | e.g. SMS like, X tweet, iMessage |
+| 3 | Blogs | e.g. digital diaries, 1 to many |
+| 4 | Voice message synchronous | e.g. audio conversation, Skype, VOIP |
+| 5 | Voice message asynchronous | e.g. voice box ("answering machine") |
+| 6 | Asynchronous sent (rich) text message | e.g. e-mail |
+| 7 | Discussion forums | e.g. forum, newsgroups (hierarchical message structure: post and response) |
+| 8 | Notice boards | e.g. boards/pinboards (broadcast, posts, no responses) |
+| 9 | Comments, annotations | e.g. comments on files |
+| 10 | Video conferencing | e.g. Zoom, Webex |
+| 11 | Unified Communication | e.g. information integration on different devices, e.g. same address book on multiple end user devices; e-mail access on phone |
+| 12 | Broadcast | e.g. webcast, podcast |
+| **C<sup>4</sup> - Cooperation** |
+| 1 | Shared authoring | e.g. text editors, Wikis, whiteboard |
+| 2 | Markup of changes (in a text) | e.g. revision marks |
+| 3 | Screen sharing/shared desktop | e.g. with TeamViewer |
+| 4 | Shared workspaces | e.g. a group workspace, team room, community |
+| 5 | Workspace awareness | e.g. information on what is happening in the past, presence and future in a workspace (e.g. markers on unread documents, activity stream) |
+| 6 | User profiles / social profiles | e.g. demographics, personal attributes, discovery of competences, who is connected with whom |
+| 7 | Ratings, rankings | e.g. "useful", "not useful", "most frequently viewed" (shows first on a list), emoticons |
+| **C<sup>4</sup> - Content Combination** |
+| 1 | Document management (document storage, archiving) | e.g. EDRMS type functionality (e.g. contracts, manuals) |
+| 2 | Content management | e.g. CMS type functionality (e.g. web pages, images, descriptions) |
+| 3 | Data aggregation (display what a user needs on start page) | e.g. portals, corporate entry pages |
+| 4 | Data integration | e.g. mashups, dashboards, widgets |
+| 5 | Content collection | e.g. Wikis, glossary |
+| 6 | Linking (e.g. hyperlinks) | e.g. hyperlink in posting |
+| 7 | Pointers or references to content | e.g. bookmarks |
+| 8 | Tagging, Folksonomies | e.g. classifying label (tag) on content items (e.g. posts) |
+| 9 | Visualisation of tag usage | e.g. tag cloud or tag list |
+| 10 | Rating | e.g. assessment of items (e.g. on a scale) |
+| 11 | Survey | e.g. questionnaire |
+| 12 | Search | e.g. search in posts and documents |
+| 13 | Content subscription | e.g. RSS feeds |
+| **C<sup>4</sup> - Coordination** |
+| 1 | User directories | e.g. LDAP, Active Directory, groups, distribution list, shared address book |
+| 2 | Roles | e.g. organisational roles (e.g. manager, assistant) and access rights (e.g. administrator, editor, author) |
+| 3 | Group calendar, deadline planning | e.g. joint view of appointments of multiple people |
+| 4 | Resource planning | e.g. reservation of resources (rooms, projector, people) |
+| 5 | Shared tasks | e.g. todo lists involving multiple people |
+| 6 | Reminders, triggers, alerts | e.g. notification when response has been written or threshold reached |
+| 7 | Workflow support | e.g. predefined flow of documents including authorisation (signed by superior) |
+| 8 | Graphical flow | e.g. visualisation of a document flow and attached rules |
+| 9 | Polls and voting | e.g. to find a decision in a team |
+| 10 | Document and version control | e.g. automated versioning |
+| 11 | Presence awareness | e.g. status icon in Skype |
+
+## References
+- Glitsch, J. H. and Schubert, P. (2017): ‘IRESS: Identification of Requirements for Enterprise Social Software’, *Procedia Computer Science*, vol. 121, pp. 866–873.
+- Schubert, P. (2023): ‘IRECS Framework: Identification of Requirements for Enterprise Collaboration Systems’, *Conference on ENTERprise Information Systems 2023*, pp. 1–9.
+- Schubert, P. and Glitsch, J. H. (2015): ‘Adding Structure to Enterprise Collaboration Systems: Identification of Use Cases and Collaboration Scenarios’, *Procedia Computer Science*, vol. 64, pp. 161–169.
+- Schubert, P. and Glitsch, J. H. (2016): ‘Use Cases and Collaboration Scenarios: How employees use socially-enabled Enterprise Collaboration Systems (ECS)’, *International Journal of Information Systems and Project Management*, vol. 4, no. 2, pp. 41–62.
