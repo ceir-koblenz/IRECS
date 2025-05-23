@@ -155,7 +155,7 @@ The **IRECS (Identification of Requirements for Enterprise Collaboration Systems
 | 11 | Presence awareness | e.g. status icon in Skype |
 
 ## References
-- Schubert, P. (2023): ‘IRECS Framework: Identification of Requirements for Enterprise Collaboration Systems’, *Conference on ENTERprise Information Systems 2023*, pp. 1–9.
+- Schubert, P. (2024). ‘IRECS Framework: Identification of Requirements for Enterprise Collaboration Systems‘, *Procedia Computer Science*, vol. 239, pp. 1467–1475.
 - Glitsch, J. H. and Schubert, P. (2017): ‘IRESS: Identification of Requirements for Enterprise Social Software’, *Procedia Computer Science*, vol. 121, pp. 866–873.
 - Schubert, P. and Glitsch, J. H. (2016): ‘Use Cases and Collaboration Scenarios: How employees use socially-enabled Enterprise Collaboration Systems (ECS)’, *International Journal of Information Systems and Project Management*, vol. 4, no. 2, pp. 41–62.
 - Schubert, P. and Glitsch, J. H. (2015): ‘Adding Structure to Enterprise Collaboration Systems: Identification of Use Cases and Collaboration Scenarios’, *Procedia Computer Science*, vol. 64, pp. 161–169.
